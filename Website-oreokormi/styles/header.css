@@ -1,0 +1,60 @@
+.header{
+  background-color: white;
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 120px;
+  justify-content: center;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: black;
+  z-index: 100;
+
+}
+
+
+.logo{
+  height: 65px;
+  margin-top: 30px;
+}
+
+.header-top{
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 10px;
+  background-color: rgb(35, 1, 1)
+}
+
+.sidebar{
+  display: flex;
+  position: fixed;
+  background-color: black;
+  top: 120px;
+  left: 0;
+  bottom: 0;
+  width: 175px;
+  color: white;
+  padding-top: 50px;
+  z-index: 100;
+  justify-content: space-around;
+}
+
+.home, .behandelingen, .over-oreokormi, .openingstijden, .tarieven{
+  margin-bottom: 70px;
+  margin-left: 20px;
+}
+
+.tekst-sidebar{
+  margin-top: 30px;
+  font-family: Arial;
+}
+
+.home-button, .over-oreokormi-button, .behandelingen-button, .openingstijden-button, .tarieven-button{
+  color: white;
+  text-decoration-line: none;
+}
